@@ -1,0 +1,77 @@
+0720-12:25:29.732[I]: SHIM START TIME 07/20/2020 12:25:29
+0720-12:25:29.732[I]: Using log file: C:\Users\ASUS\AppData\Local\NVIDIA Corporation\NvTmRep\shim.log
+0720-12:25:29.732[I]: Using out file: C:\Users\ASUS\AppData\Local\NVIDIA Corporation\NvTmRep\shim.xml
+0720-12:25:29.732[I]: Enter SHIM_Init
+0720-12:25:29.732[I]: Exit SHIM_Init
+0720-12:25:29.732[I]: Enter SHIM_Probe
+0720-12:25:29.748[W]: updtDispDevEnumClass::GetBasicFileVersion Failed
+0720-12:25:29.748[W]: Cannot find nv4_disp.dll
+0720-12:25:29.748[F]: ----Enter DetectOSInfo----
+0720-12:25:29.748[I]: Enter updtShimAPIClass::DetectOSInfo
+0720-12:25:31.170[I]: Enter updtShimAPIClass::GetVerifierInfo
+0720-12:25:31.170[W]: Query VerifyDriverLevel failed
+0720-12:25:31.170[I]: Exit updtShimAPIClass::GetVerifierInfo
+0720-12:25:31.263[I]: Exit updtShimAPIClass::DetectOSInfo
+0720-12:25:31.263[F]: ----Exit DetectOSInfo----
+0720-12:25:31.263[I]: Detect OS info succeed!
+0720-12:25:31.263[I]: GFE::SHIM::DetectFW10: unable to open .Net FW 1.0 registry path
+0720-12:25:31.263[I]: GFE::SHIM::DetectFW11: unable to open .Net FW 1.1 registry path
+0720-12:25:31.279[I]: ----Enter DispDevEnum----
+0720-12:25:31.439[W]: NvAPI_GPU_GetTotalSMCount failed: -104
+0720-12:25:31.439[W]: NvAPI_GPU_GetTotalSPCount failed: -104
+0720-12:25:31.439[W]: NvAPI_GPU_GetPerfHybridMode failed: -104
+0720-12:25:31.439[W]: NvAPI_GPU_GetTvEncoderType failed: -5
+0720-12:25:31.455[W]: NvAPI_GetDisplayFromPhysicalGPU failed: -5
+0720-12:25:31.471[W]: NvAPI_GPU_GetConnectedDisplayIds failed: 0
+0720-12:25:31.471[W]: updtDispDevEnumClass::GetActiveOutputs: GetDisplayConnectors failed.
+0720-12:25:31.471[W]: NvAPI_GPU_GetConnectedDisplayIds failed: 0
+0720-12:25:31.471[W]: updtDispDevEnumClass::GetGPUInfo: GetDisplayConnectors failed.
+0720-12:25:31.471[W]: NvAPI_GPU_GetConnectedDisplayIds failed: 0
+0720-12:25:31.471[W]: updtDispDevEnumClass::GetEdidNvAPI: GetDisplayConnectors failed.
+0720-12:25:31.486[I]: ----Exit DispDevEnum----
+0720-12:25:31.486[I]: ----Enter PCIEnum----
+0720-12:25:31.486[I]: Enter updtPCIEnumClass::InternalEnumerateImpl
+0720-12:25:31.799[I]: Exit updtPCIEnumClass::InternalEnumerateImpl
+0720-12:25:31.799[I]: ----Exit PCIEnum----
+0720-12:25:31.799[I]: ----Enter StorageMediaEnum----
+0720-12:25:31.799[I]: Enter updtHDEnumClass::Enumerate
+0720-12:25:32.128[E]: MediaIndex = 0
+0720-12:25:32.128[E]: MediaIndex = 1
+0720-12:25:32.221[E]: CreateFile \\.\C: failed, ErrCode = 5
+0720-12:25:32.221[E]: CreateFile \\.\D: failed, ErrCode = 5
+0720-12:25:32.221[E]: GetVolumeInfo Filessytem failed caption=E:\, ErrorCode=21
+0720-12:25:32.221[E]: Couldn't Get E: volume info
+0720-12:25:33.393[I]: Exit updtHDEnumClass::Enumerate
+0720-12:25:33.393[I]: ----Exit StorageMediaEnum----
+0720-12:25:33.393[F]: ----Enter CpuEnum----
+0720-12:25:33.424[I]: updtCPUEnumClass::InternalEnumerate: 1 CPUs found.
+0720-12:25:33.424[F]: ----Exit CpuEnum----
+0720-12:25:33.424[I]: Detect CPU info succeed!
+0720-12:25:33.424[F]: ----Enter DetectComputerSystem----
+0720-12:25:33.471[W]: CS: SKUNumber Failed
+0720-12:25:33.471[F]: ----Exit DetectComputerSystem----
+0720-12:25:33.471[I]: Detect CS info succeed!
+0720-12:25:33.471[F]: ----Enter SMBUtility----
+0720-12:25:33.627[I]: Terminator table found
+0720-12:25:33.627[I]: SMBUtility.Fetch succeed!
+0720-12:25:33.627[F]: ----Enter MoboInfo----
+0720-12:25:33.627[F]: ----Exit MoboInfo----
+0720-12:25:33.627[I]: SMBUtility.GetMOBOInfo succeed!
+0720-12:25:33.658[W]: Cannot find nv chipset!
+0720-12:25:33.658[W]: GetRegInfo RegEnumKeyEx Failed 21
+0720-12:25:33.658[I]: Exit GetRegInfo
+0720-12:25:33.658[F]: NorthBridge=,SouthBridge=
+0720-12:25:33.674[W]: Variant type not INT/UINT: 1
+0720-12:25:33.674[F]: ----Exit SMBUtility----
+0720-12:25:33.674[I]: Now exit updtShimAPIClass::Probe
+0720-12:25:33.674[I]: Exit SHIM_Probe
+0720-12:25:33.674[I]: Enter SHIM_GenerateXML
+0720-12:25:33.706[E]: OculusDetector::ScanDriverVersion[PnPOculusDetector] Display driver OpenKey failed: RegOpenKeyEx failed with 2 in src\windows_registry.cpp:423
+0720-12:25:34.814[E]: Get failed (80041002) in updtWmiHelperClass::GetValue!
+0720-12:25:34.814[E]: Get failed (80041002) in updtWmiHelperClass::GetValue!
+0720-12:25:34.908[I]: Exit SHIM_GenerateXML
+0720-12:25:34.908[I]: Enter SHIM_Exit
+0720-12:25:34.908[I]: Exit SHIM_Exit
+0720-12:25:34.908[F]: Saving SHIM to file C:\Users\ASUS\AppData\Local\NVIDIA Corporation\NvTmRep\shim.xml
+0720-12:25:34.939[F]: File saved C:\Users\ASUS\AppData\Local\NVIDIA Corporation\NvTmRep\shim.xml
+0720-12:25:34.939[F]: SHIM detection completed. detect time=5
