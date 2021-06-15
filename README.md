@@ -2,7 +2,7 @@
 
 Install with npm:
 
-`npm install -g`
+```npm install -g```
 
 ## COMMAND
 
